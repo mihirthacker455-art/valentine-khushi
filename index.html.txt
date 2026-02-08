@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Will You Be My Valentine?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Romantic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/audio/2022/10/03/audio_7b77b1c5d6.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Floating Hearts -->
+    <div class="hearts"></div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <div class="container">
+        <h1>Hey <span id="name" class="glow">Khushi</span> 💕</h1>
+        <p id="question">Khushi, will you be my Valentine? 💖</p>
+
+        <div class="buttons">
+            <button id="yesBtn">Yes 💖</button>
+            <button id="noBtn">No 💔</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
